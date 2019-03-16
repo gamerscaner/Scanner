@@ -1,9 +1,15 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        int a = 3;
-        int b = 4;
-        System.out.println("Hello World!");
+        Scanner scan = new Scanner("Строка1\nСтрока2\n");
+
+           String str =  scan.nextLine();
+           String str2 = scan.nextLine();
+           System.out.println(str2);
+
+
     }
 }
